@@ -1,5 +1,20 @@
-<h1>Original Text</h1>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ответ</title>
+</head>
+<body>
+<h1>Оригинальный текст</h1>
 <h3>{{usertext}}</h3>
-<br>
-<h1>Reversed Text</h1>
+
+<h1>Изменённый текст</h1>
 <h3>{{reversed}}</h3>
+
+<h2>количество слов: {{number}}</h2>
+
+<form action="{% url 'hhome' %}">
+    <input type="submit" value="Обратно">
+</form>
+
+</body>
+</html>
