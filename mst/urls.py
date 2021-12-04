@@ -19,5 +19,6 @@ from . import code
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', code.standart)
+    path('', code.standart),
+    path('rev/', code.reverse, name='reverse'),
 ]

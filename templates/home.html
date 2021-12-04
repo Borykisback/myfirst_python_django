@@ -6,8 +6,8 @@
 <body>
 
 <h1>Verstka</h1>
-<form action="">
-    <textarea rows="15" cols="50"></textarea>
+<form action="{% url 'reverse' %}">
+    <textarea rows="15" cols="50" name="usertext"></textarea>
     <br>
     <input type="submit" value="submit">
 </form>
